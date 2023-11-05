@@ -17,7 +17,7 @@ This project explores data from the movie review databases IMDB, Rotten Tomatoes
 ![movie-genres.jfif](Project-images/movie-genres.jfif)
 
 
-Microsoft want to venture into film making business and needs to know what types of films are currently doing the best at the box office. This analysis will provide insights into the film types they can explore as a new movie studio.  
+Microsoft wants to venture into film making business and needs to know what types of films are currently doing the best at the box office. This analysis will provide insights into the film types they can explore as a new movie studio.  
 
 ## The Data
 ***
@@ -69,7 +69,7 @@ There is no relationship between production budget and return on investment
 
 This analysis leads to the following recommendations to the head of Microsoft's new Movie Studio in terms of the types of films to create:
 
-1. __Starting with films of the genre documentary is a good move.
+1. __Starting with films of the genre documentary is a good move.__
 2. __Action and adventure are another genre that Microsoft's new studio can look into.__ 
 3. __Drama and comedy genre films must be approached with caution.__ 
 4. __Rating and production budgets are not indicators of return on investment.__ 
