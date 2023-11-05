@@ -32,64 +32,63 @@ This project uses exploratory data analysis to determine which film types are hi
 
 The highest rated movies come from the genres Documentary/Family/Romance while the lowest rated ones are of the genre Adventure/Drama/Musical.
 
-<\br>
+***
 
 <img src="./Project-images/movierating.png" 
      align="left" 
      width="700" />
 
-<\br>
+***
 
 The most expensive film genres to produce are Adventure/Fantasy while the cheapest to produce are Documentary/Drama/Sport. 
 
-<\br>
+***
 
 <img src="./Project-images/budget-genre.png" 
      align="left" 
      width="700" />
 
-<\br>
+***
 
 The film genres with the highest domestic return on investment are Action/Comedy/History while the greatest loss makers in the domestic market are Drama/History/Sport
 
-<\br>
+***
 
 <img src="./Project-images/droi-genre.png" 
      align="left" 
      width="700" />
 
-<\br>
+***
 
 The film genres with the highest worldwide return on investment are Action/Comedy/History while the greatest loss makers worldwide market are Comedy/Fantasy/Musical
 
-<\br>
+***
 
 <img src="./Project-images/wroi-genre.png" 
      align="left" 
      width="700" />
 
-<\br>
+***
 
 There is no relationship between production budget and return on investment
 
-<\br>
+***
 
 <img src="./Project-images/budget-roi.png" 
      align="left" 
      width="700" />
 
-<\br>
+***
 
 There is no relationship between production budget and return on investment
 
-<\br>
+***
 
 <img src="./Project-images/rating-roi.png" 
      align="left" 
      width="700" />
 
-<\br>
-
+***
 
 ## Conclusions
 ***
