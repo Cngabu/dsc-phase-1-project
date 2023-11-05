@@ -1,6 +1,6 @@
-<img src="./Project-images/Movie-Poster.jfif" 
-     align="left" 
-     width="700" />  
+![Movie-Poster.jfif](Project-images/Movie-Poster.jfif)
+
+
 
 # Microsoft Movie Business Entry Analysis
 ***
@@ -13,9 +13,9 @@ This project explores data from the movie review databases IMDB, Rotten Tomatoes
 
 ## Business Problem
 ***  
-<img src="./Project-images/films-investment-poster.png" 
-     align="left" 
-     width="700" />  
+
+![movie-genres.jfif](Project-images/movie-genres.jfif)
+
 
 Microsoft want to venture into film making business and needs to know what types of films are currently doing the best at the box office. This analysis will provide insights into the film types they can explore as a new movie studio.  
 
@@ -35,61 +35,32 @@ This project uses exploratory data analysis to determine which film types are hi
 
 The highest rated movies come from the genres Documentary/Family/Romance while the lowest rated ones are of the genre Adventure/Drama/Musical.  
 
+![movierating.png](Project-images/movierating.png)
+
+The most expensive film genres to produce are Adventure/Fantasy while the cheapest to produce are Documentary/Drama/Sport. 
+
+![budget-genre.png](Project-images/budget-genre.png)
 
 
-<img src="./Project-images/movierating.png" 
-     align="left" 
-     width="700" />  
+The film genres with the highest domestic return on investment are Action/Comedy/History while the greatest loss makers in the domestic market are Drama/History/Sport 
 
-
-
-The most expensive film genres to produce are Adventure/Fantasy while the cheapest to produce are Documentary/Drama/Sport.   
-
-
-
-<img src="./Project-images/budget-genre.png" 
-     align="left" 
-     width="700" />  
-
-
-
-The film genres with the highest domestic return on investment are Action/Comedy/History while the greatest loss makers in the domestic market are Drama/History/Sport  
-
-
-
-<img src="./Project-images/droi-genre.png" 
-     align="left" 
-     width="700" />  
-
+![droi-genre.png](Project-images/droi-genre.png)
 
 
 The film genres with the highest worldwide return on investment are Action/Comedy/History while the greatest loss makers worldwide market are Comedy/Fantasy/Musical  
 
+![wroi-genre.png](Project-images/wroi-genre.png)
+     
+     
+There is no relationship between production budget and return on investment
 
-
-<img src="./Project-images/wroi-genre.png" 
-     align="left" 
-     width="700" />  
-
-
-
-There is no relationship between production budget and return on investment  
-
-
-
-<img src="./Project-images/budget-roi.png" 
-     align="left" 
-     width="700" />  
-
+![budget-roi.png](Project-images/budget-roi.png)
 
 
 There is no relationship between production budget and return on investment  
 
+![rating-roi.png](Project-images/rating-roi.png)
 
-
-<img src="./Project-images/rating-roi.png" 
-     align="left" 
-     width="700" />  
 
 
 
