@@ -1,65 +1,113 @@
-# Phase 1 Project
+<img src="./Project-images/Movie-Poster.jfif" 
+     align="left" 
+     width="700" />
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+# Microsoft Movie Business Entry Analysis
+***
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
-
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
 
 ## Project Overview
+***
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+This project explores data from the movie review databases IMDB, Rotten Tomatoes, Box Office Mojo, TheMovieDB and The Numbers to determine which movies are currently doing well at the box office. Exploratory data analysis will shed insight that can be used by Microsoft's new movie studio to determine the kind of original video content they should create.
 
-### Business Problem
+## Business Problem
+***
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+Microsoft want to venture into film making business and needs to know what types of films are currently doing the best at the box office. This analysis will provide insights into the film types they can explore as a new movie studio.  
 
-### The Data
+## The Data
+***
 
-In the folder `zippedData` are movie datasets from:
+The datasets have been derived from the movie review databases IMDB, Rotten Tomatoes, Box Office Mojo, TheMovieDB and The Numbers. These datasets contain information on films including film genre, runtime, domestic and worldwide grossing and rating among other variables. 
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+## Methods
+***
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+This project uses exploratory data analysis to determine which film types are highest rated at the box office and production budgets and return on investment by movie genre.  
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
 
-## Deliverables
+## Results
+***
 
-There are three deliverables for this project:
+The highest rated movies come from the genres Documentary/Family/Romance while the lowest rated ones are of the genre Adventure/Drama/Musical.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+<\br>
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+<img src="./Project-images/movierating.png" 
+     align="left" 
+     width="700" />
 
-### Key Points
+<\br>
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+The most expensive film genres to produce are Adventure/Fantasy while the cheapest to produce are Documentary/Drama/Sport. 
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+<\br>
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+<img src="./Project-images/budget-genre.png" 
+     align="left" 
+     width="700" />
 
-## Getting Started
+<\br>
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
+The film genres with the highest domestic return on investment are Action/Comedy/History while the greatest loss makers in the domestic market are Drama/History/Sport
 
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
+<\br>
 
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
+<img src="./Project-images/droi-genre.png" 
+     align="left" 
+     width="700" />
 
-## Project Submission and Review
+<\br>
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
+The film genres with the highest worldwide return on investment are Action/Comedy/History while the greatest loss makers worldwide market are Comedy/Fantasy/Musical
 
-## Summary
+<\br>
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+<img src="./Project-images/wroi-genre.png" 
+     align="left" 
+     width="700" />
+
+<\br>
+
+There is no relationship between production budget and return on investment
+
+<\br>
+
+<img src="./Project-images/budget-roi.png" 
+     align="left" 
+     width="700" />
+
+<\br>
+
+There is no relationship between production budget and return on investment
+
+<\br>
+
+<img src="./Project-images/rating-roi.png" 
+     align="left" 
+     width="700" />
+
+<\br>
+
+
+## Conclusions
+***
+
+This analysis leads to the following recommendations to the head of Microsoft's new Movie Studio in terms of the types of films to create:
+
+1. __Starting with films of the genre documentary is a good move.
+2. __Action and adventure are another genre that Microsoft's new studio can look into.__ 
+3. __Drama and comedy genre films must be approached with caution.__ 
+4. __Rating and production budgets are not indicators of return on investment.__ 
+
+
+
+## Further Analysis
+***
+
+Further analysis can be conducted to determine:
+1. The predictors of a film's return on investments
+2. The effect of director/writer on a film's rating and popularity
+3. The effect or runtime in minutes on a movie's rating and return on investment. 
+
